@@ -2,7 +2,7 @@ import web3 from '~/plugins/web3'
 import controllerAbi from './../../build/contracts/Controller.json'
 import userWalletAbi from './../../build/contracts/UserWallet.json'
 
-const controllerAddress = '0x885Ab717FaBe2d7D45132FD4cBBCE2aFFE5faf00'
+const controllerAddress = '0x2Ba1B437D0Dead57dD4374e54a74130D6960b745'
 const controller = new web3.eth.Contract(controllerAbi.abi, controllerAddress)
 
 let account
